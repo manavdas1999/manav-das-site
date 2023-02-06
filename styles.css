@@ -168,6 +168,12 @@ hr{
     margin-top: 0;
 }
 
+.section div{
+    padding: 2rem;
+}
+.blogpage p{
+    text-align: left;
+}
 
 
 
