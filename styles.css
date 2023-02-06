@@ -136,27 +136,39 @@ hr{
 /* section */
 .section {
     margin: 1rem;
-
 }
 
 .section div{
-    padding: 2rem;
+    padding: 1rem 1rem;
+    padding-bottom: 0.5rem;
     text-align: center;
     border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .section h3{
     text-align: center;
     font-size: 1.6rem;
+    margin: 0.5rem;
 }
 
+.section small{
+    font-size: 0.9rem;
+}
 .inverted-section{
     background-color: var(--inverted-orange);
 }
 
 .section a{
-    margin: auto;
+    margin: 0.8rem;
 }
+
+.center-container div{
+    margin-top: 0;
+}
+
+
 
 
 /* footer */
