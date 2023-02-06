@@ -1,0 +1,179 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* defining CSS variables */
+:root{
+    --primary-color: rgb(236, 72, 153);
+    --gray-color: rgb(84, 83, 83);
+    --inverted-orange: rgb(239, 239, 239);
+}
+
+/* body tag */
+body{
+    font-family: 'Open Sans', 'Sans-Serif';
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+/* containers */
+
+.container{
+    margin: 0 1rem;  
+}
+
+.fluid-container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.center-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem; 
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 6px;
+}
+
+.secondary-link{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 6px;
+}
+
+
+/* lists */
+
+.list-non-bulleted{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+
+
+/* nav bar */
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.1rem 1.3rem 0.3rem 1.3rem;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* <a> items inside navigation class item */
+.navigation a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    font-size: 1.2rem;
+}
+
+.navigation ul{
+    text-align: right;
+}
+
+/* state-wise styles */
+.navigation a:hover{
+    /* font-weight: bold; */
+    color: white;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation ul .link-active{
+    font-weight: bold;
+}
+
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--gray-color);
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.hero .hero-inverted-text{
+    color: var(--primary-color);
+}
+
+
+/* section */
+.section {
+    margin: 1rem;
+
+}
+
+.section div{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.section h3{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.inverted-section{
+    background-color: var(--inverted-orange);
+}
+
+.section a{
+    margin: auto;
+}
+
+
+/* footer */
+
+.footer{
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
